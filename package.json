@@ -1,0 +1,23 @@
+{
+  "name": "arcane-night-strom",
+  "displayName": "Arcane Night Strom",
+  "publisher": "AhumMaitra",
+  "description": "This is not just a theme. If you download it, you're entering a magical Harry Potter stormy night dream. A beautiful experience for coders who love magic!",
+  "icon": "logo.png",
+  "version": "0.1.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Arcane Night Strom",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Arcane Theme-color-theme.json"
+      }
+    ]
+  }
+}
