@@ -1,137 +1,200 @@
 {
-	"name": "Arcane Night Strom",
-	"author": "Ahum Maitra",
-	"type": "dark",
-	"colors": {
-	  "editor.background": "#0A0B10",
-	  "editor.foreground": "#E3E3F1",
-	  "editorCursor.foreground": "#FFFB91",
-	  "editorLineNumber.foreground": "#44475a",
-	  "editorLineNumber.activeForeground": "#FFD700",
-	  "editorLineHighlightBackground": "#11131A",
-	  "editor.selectionBackground": "#2A2A40",
-	  "editor.inactiveSelectionBackground": "#1F1F33",
-	  "editor.wordHighlightBackground": "#2a2a40cc",
-	  "editor.findMatchBackground": "#44475a",
-	  "editor.findMatchHighlightBackground": "#6272a4",
-	  "sideBar.background": "#0D0E13",
-	  "sideBar.foreground": "#B0B0FF",
-	  "activityBar.background": "#0F1015",
-	  "activityBar.foreground": "#D4AFFF",
-	  "statusBar.background": "#0F1015",
-	  "statusBar.foreground": "#B0B0FF",
-	  "titleBar.activeBackground": "#101219",
-	  "titleBar.activeForeground": "#E3E3F1",
-	  "panel.background": "#101219",
-	  "tab.activeBackground": "#1A1B25",
-	  "tab.activeForeground": "#FFD700",
-	  "tab.inactiveBackground": "#0F1015",
-	  "tab.inactiveForeground": "#666688",
-	  "terminal.background": "#0A0B10",
-	  "terminal.foreground": "#C0C0DD"
-	},
-	"tokenColors": [
-	  {
-		"name": "Keywords",
-		"scope": ["keyword", "storage.type", "keyword.control", "keyword.operator"],
-		"settings": {
-		  "foreground": "#C792EA",
-		  "fontStyle": "bold"
-		}
-	  },
-	  {
-		"name": "Functions & Methods",
-		"scope": ["entity.name.function", "support.function", "meta.function-call", "variable.function"],
-		"settings": {
-		  "foreground": "#82AAFF"
-		}
-	  },
-	  {
-		"name": "Variables",
-		"scope": ["variable", "identifier", "meta.definition.variable", "support.variable"],
-		"settings": {
-		  "foreground": "#FFCB6B"
-		}
-	  },
-	  {
-		"name": "Strings",
-		"scope": ["string", "string.quoted", "string.template", "meta.string"],
-		"settings": {
-		  "foreground": "#C3E88D"
-		}
-	  },
-	  {
-		"name": "Constants & Numbers",
-		"scope": ["constant.numeric", "constant.language", "constant.character", "constant.other"],
-		"settings": {
-		  "foreground": "#F78C6C"
-		}
-	  },
-	  {
-		"name": "Types & Classes",
-		"scope": ["entity.name.type", "support.class", "support.type", "meta.class", "meta.struct"],
-		"settings": {
-		  "foreground": "#FF5370"
-		}
-	  },
-	  {
-		"name": "Comments & Documentation",
-		"scope": ["comment", "comment.block.documentation", "punctuation.definition.comment"],
-		"settings": {
-		  "foreground": "#546E7A",
-		  "fontStyle": "italic"
-		}
-	  },
-	  {
-		"name": "HTML & JSX Tags",
-		"scope": ["entity.name.tag", "meta.tag", "support.class.component"],
-		"settings": {
-		  "foreground": "#F07178"
-		}
-	  },
-	  {
-		"name": "CSS Selectors & Properties",
-		"scope": ["support.type.property-name.css", "meta.property-name.css", "variable.css", "entity.other.attribute-name.class.css"],
-		"settings": {
-		  "foreground": "#89DDFF"
-		}
-	  },
-	  {
-		"name": "Attributes",
-		"scope": ["entity.other.attribute-name", "meta.attribute"],
-		"settings": {
-		  "foreground": "#FFCB6B"
-		}
-	  },
-	  {
-		"name": "Decorators & Annotations",
-		"scope": ["meta.decorator", "entity.name.function.decorator", "meta.annotation"],
-		"settings": {
-		  "foreground": "#D4AFFF"
-		}
-	  },
-	  {
-		"name": "Operators & Punctuation",
-		"scope": ["keyword.operator", "punctuation", "meta.brace", "meta.delimiter"],
-		"settings": {
-		  "foreground": "#89DDFF"
-		}
-	  },
-	  {
-		"name": "Magic & Wizardry Effects (Special UI Elements)",
-		"scope": ["markup.bold", "markup.italic", "markup.underline", "markup.strikethrough"],
-		"settings": {
-		  "foreground": "#FFB6C1",
-		  "fontStyle": "italic bold"
-		}
-	  },
-	  {
-		"name": "Python Magic Functions",
-		"scope": ["support.function.magic.python"],
-		"settings": {
-		  "foreground": "#FF79C6",
-		  "fontStyle": "italic"
-		}
-	  }
-	]
-  }
+  "name": "Arcane Night Strom",
+  "author": "Ahum Maitra",
+  "type": "dark", //dark theme
+  "colors": {
+	//Customized editor
+    "editor.background": "#0A0B10",
+    "editor.foreground": "#E3E3F1",
+    "editorCursor.foreground": "#FFFB91",
+    "editorLineNumber.foreground": "#44475a",
+    "editorLineNumber.activeForeground": "#FFD700",
+    "editorLineHighlightBackground": "#11131A",
+    "editor.selectionBackground": "#2A2A40",
+    "editor.inactiveSelectionBackground": "#1F1F33",
+    "editor.wordHighlightBackground": "#2a2a40cc",
+    "editor.findMatchBackground": "#44475a",
+    "editor.findMatchHighlightBackground": "#6272a4",
+	//Customized side bar
+    "sideBar.background": "#0D0E13",
+    "sideBar.foreground": "#B0B0FF",
+	//Customized activity bar
+    "activityBar.background": "#0F1015",
+    "activityBar.foreground": "#D4AFFF",
+	//Customized status bar
+    "statusBar.background": "#0F1015",
+    "statusBar.foreground": "#B0B0FF",
+	//Customized title background
+    "titleBar.activeBackground": "#101219",
+    "titleBar.activeForeground": "#E3E3F1",
+	//Customized panel background
+    "panel.background": "#101219",
+
+	//Customized Tab sections
+    "tab.activeBackground": "#1A1B25",
+    "tab.activeForeground": "#FFD700",
+    "tab.inactiveBackground": "#0F1015",
+    "tab.inactiveForeground": "#666688",
+    //Customized terminal
+    "terminal.background": "#0A0B10",
+    "terminal.foreground": "#cfc0dd",
+
+    //Customized menu
+    "menu.background": "#1a0e2b",
+    "menu.selectionBackground": "#f1c100",
+    "menu.selectionForeground": "#360244"
+  },
+  "tokenColors": [
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "keyword.control",
+        "keyword.operator"
+      ],
+      "settings": {
+        "foreground": "#C792EA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Functions & Methods",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call",
+        "variable.function"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "identifier",
+        "meta.definition.variable",
+        "support.variable"
+      ],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string", "string.quoted", "string.template", "meta.string"],
+      "settings": {
+        "foreground": "#C3E88D"
+      }
+    },
+    {
+      "name": "Constants & Numbers",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.character",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Types & Classes",
+      "scope": [
+        "entity.name.type",
+        "support.class",
+        "support.type",
+        "meta.class",
+        "meta.struct"
+      ],
+      "settings": {
+        "foreground": "#FF5370"
+      }
+    },
+    {
+      "name": "Comments & Documentation",
+      "scope": [
+        "comment",
+        "comment.block.documentation",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#546E7A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "HTML & JSX Tags",
+      "scope": ["entity.name.tag", "meta.tag", "support.class.component"],
+      "settings": {
+        "foreground": "#F07178"
+      }
+    },
+    {
+      "name": "CSS Selectors & Properties",
+      "scope": [
+        "support.type.property-name.css",
+        "meta.property-name.css",
+        "variable.css",
+        "entity.other.attribute-name.class.css"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": ["entity.other.attribute-name", "meta.attribute"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Decorators & Annotations",
+      "scope": [
+        "meta.decorator",
+        "entity.name.function.decorator",
+        "meta.annotation"
+      ],
+      "settings": {
+        "foreground": "#D4AFFF"
+      }
+    },
+    {
+      "name": "Operators & Punctuation",
+      "scope": [
+        "keyword.operator",
+        "punctuation",
+        "meta.brace",
+        "meta.delimiter"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Magic & Wizardry Effects (Special UI Elements)",
+      "scope": [
+        "markup.bold",
+        "markup.italic",
+        "markup.underline",
+        "markup.strikethrough"
+      ],
+      "settings": {
+        "foreground": "#FFB6C1",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "Python Magic Functions",
+      "scope": ["support.function.magic.python"],
+      "settings": {
+        "foreground": "#FF79C6",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}
