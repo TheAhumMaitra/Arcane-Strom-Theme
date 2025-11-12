@@ -1,6 +1,6 @@
 # 🌌 Arcane Night Strom
 
-> _"Not just a theme... it's a journey through storms, night and dreams, and code."_  
+> _"Not just a theme... it's a journey through storms, night and dreams, and code."_
 > Designed to transport you into the world of **Magic and dream**, dark rainy nights, and mystical energy ⚡🪄
 
 
@@ -36,7 +36,7 @@ Arcane Night Strom gives magical syntax highlighting for:
 
 ## 🪄 Theme Preview
 
-![Preview 1 - Python](screenshot.png)  
+![Preview 1 - Python](screenshot.png)
 *More previews coming soon...*
 
 ---
@@ -53,10 +53,15 @@ Arcane Night Strom gives magical syntax highlighting for:
 
 ## 🖼️ Set as Default Theme
 
-Once installed, VS Code will ask if you want to **switch to the theme**.  
+Once installed, VS Code will ask if you want to **switch to the theme**.
 If not:
 1. Press `Ctrl+Shift+P`
 2. Search: `Preferences: Color Theme`
 3. Select: **Arcane Night Strom**
 
+---
+
+---
+## License
+This project is Licensed under [`MIT License`](License.md).
 ---
