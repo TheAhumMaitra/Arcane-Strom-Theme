@@ -1,23 +1,76 @@
 {
-  "name": "arcane-night-strom",
-  "displayName": "Arcane Night Strom",
-  "publisher": "AhumMaitra",
-  "description": "This is not just a theme. If you download it, you're entering a magical Harry Potter stormy night dream. A beautiful experience for coders who love magic!",
-  "icon": "logo.png",
-  "version": "0.1.1",
-  "engines": {
-    "vscode": "^1.99.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Arcane Night Strom",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Arcane Theme-color-theme.json"
-      }
-    ]
-  }
+	"name": "arcane-night-strom",
+	"displayName": "Arcane Night Strom",
+	"description": "A magical dark theme inspired by stormy nights, glowing spells, and the wizarding world. Enter the realm of code and magic!",
+	"version": "3.0.0",
+	"publisher": "AhumMaitra",
+	"engines": {
+		"vscode": "^1.99.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"icon": "logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TheAhumMaitra/Arcane-Strom-Theme"
+	},
+	"homepage": "https://marketplace.visualstudio.com/items?itemName=AhumMaitra.arcane-night-strom",
+	"bugs": {
+		"url": "https://github.com/TheAhumMaitra/Arcane-Strom-Theme/issues"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Arcane Night Strom (Light)",
+				"uiTheme": "vs",
+				"path": "./themes/Arcane_Night_Strom_Light.json"
+			},
+			{
+				"label": "Arcane Night Strom (Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Arcane_NIght_Strom_Dark.json"
+			},
+			{
+				"label": "Arcane Night Strom (High Contrast)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Arcane_Night_Strom_High_Contrast.json"
+			}
+		],
+		"configuration": {
+			"title": "Arcane Night Strom",
+			"properties": {
+				"arcaneNightStrom.customAccentColor": {
+					"type": "string",
+					"default": "#82AAFF",
+					"description": "Set a custom accent color for magical highlights."
+				},
+				"arcaneNightStrom.glowMode": {
+					"type": "boolean",
+					"default": false,
+					"description": "Enable glow mode for magical and glowy syntax highlights (experimental)."
+				},
+				"arcaneNightStrom.magicParticles": {
+					"type": "boolean",
+					"default": false,
+					"description": "Enable floating magical particles in your code editor (just for fun!)."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"package": "vsce package",
+		"publish": "vsce publish"
+	},
+	"keywords": [
+		"theme",
+		"dark",
+		"magic",
+		"storm",
+		"arcane",
+		"vscode-theme",
+		"night",
+		"rain"
+	],
+	"license": "MIT"
 }

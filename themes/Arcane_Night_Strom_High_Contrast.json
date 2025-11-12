@@ -1,0 +1,121 @@
+{
+  "name": "Arcane Night Strom (High Contrast with Detailed Syntax)",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#FFFFFF",
+    "editorCursor.foreground": "#FFD700",
+    "editorLineNumber.foreground": "#CCCCCC",
+    "editorLineNumber.activeForeground": "#FF00FF",
+    "sideBar.background": "#121212",
+    "activityBar.background": "#1A1A1A",
+    "statusBar.background": "#1C1C1C",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#1C1C1C",
+    "titleBar.activeForeground": "#FFFFFF"
+  },
+  "tokenColors": [
+    {
+      "name": "Keywords",
+      "scope": ["keyword", "storage.type", "keyword.control", "keyword.operator"],
+      "settings": {
+        "foreground": "#C792EA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Functions & Methods",
+      "scope": ["entity.name.function", "support.function", "meta.function-call", "variable.function"],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "identifier", "meta.definition.variable", "support.variable"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string", "string.quoted", "string.template", "meta.string"],
+      "settings": {
+        "foreground": "#C3E88D"
+      }
+    },
+    {
+      "name": "Constants & Numbers",
+      "scope": ["constant.numeric", "constant.language", "constant.character", "constant.other"],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Types & Classes",
+      "scope": ["entity.name.type", "support.class", "support.type", "meta.class", "meta.struct"],
+      "settings": {
+        "foreground": "#FF5370"
+      }
+    },
+    {
+      "name": "Comments & Documentation",
+      "scope": ["comment", "comment.block.documentation", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#546E7A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "HTML & JSX Tags",
+      "scope": ["entity.name.tag", "meta.tag", "support.class.component"],
+      "settings": {
+        "foreground": "#F07178"
+      }
+    },
+    {
+      "name": "CSS Selectors & Properties",
+      "scope": ["support.type.property-name.css", "meta.property-name.css", "variable.css", "entity.other.attribute-name.class.css"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": ["entity.other.attribute-name", "meta.attribute"],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Decorators & Annotations",
+      "scope": ["meta.decorator", "entity.name.function.decorator", "meta.annotation"],
+      "settings": {
+        "foreground": "#D4AFFF"
+      }
+    },
+    {
+      "name": "Operators & Punctuation",
+      "scope": ["keyword.operator", "punctuation", "meta.brace", "meta.delimiter"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Magic & Wizardry Effects (Special UI Elements)",
+      "scope": ["markup.bold", "markup.italic", "markup.underline", "markup.strikethrough"],
+      "settings": {
+        "foreground": "#FFB6C1",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "Python Magic Functions",
+      "scope": ["support.function.magic.python"],
+      "settings": {
+        "foreground": "#FF79C6",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}
