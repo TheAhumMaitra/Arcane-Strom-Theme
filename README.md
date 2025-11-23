@@ -63,8 +63,6 @@ If not:
 
 ---
 
----
-
 ## License
 
 This project is Licensed under **[`MIT License`](License.md)**.
