@@ -3,7 +3,6 @@
 > _"Not just a theme... it's a journey through storms, night and dreams, and code."_
 > Designed to transport you into the world of **Magic and dream**, dark rainy nights, and mystical energy ⚡🪄
 
-
 ---
 
 ## ✨ Overview
@@ -11,6 +10,7 @@
 **Arcane Night Strom** is a dark magical theme for Visual Studio Code — infused with mystery, elegance, and stormy vibes. Built for wizards, witches, and all passionate coders who love late-night adventures in the land of code.
 
 This theme features:
+
 - 🌙 A dark, cozy background for better focus
 - 🎨 Vibrant syntax highlighting for Python, JavaScript, HTML, CSS, Java, C/C++, C#, and more
 - 💬 Calm and magical colors for comments, strings, and functions
@@ -37,9 +37,8 @@ Arcane Night Strom gives magical syntax highlighting for:
 ## 🪄 Theme Preview
 
 ![Preview 1 - Python](screenshot.png)
+
 ### Credit : Ahum (Me)
-![Preview 2 - Rust](screenshot_2.png)
-### Credit : [`Dante897`](https://github.com/DanteIs897)
 
 ---
 
@@ -57,6 +56,7 @@ Arcane Night Strom gives magical syntax highlighting for:
 
 Once installed, VS Code will ask if you want to **switch to the theme**.
 If not:
+
 1. Press `Ctrl+Shift+P`
 2. Search: `Preferences: Color Theme`
 3. Select: **Arcane Night Strom**
@@ -64,6 +64,7 @@ If not:
 ---
 
 ---
+
 ## License
-This project is Licensed under [`MIT License`](License.md).
----
+
+## This project is Licensed under [`MIT License`](License.md).
