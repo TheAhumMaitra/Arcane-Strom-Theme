@@ -36,7 +36,7 @@ Arcane Night Strom gives magical syntax highlighting for:
 
 ## 🪄 Theme Preview
 
-![Preview 1 - Python](screenshot.png)
+![Preview 1 - Python](https://raw.githubusercontent.com/TheAhumMaitra/Arcane-Strom-Theme/refs/heads/main/assets/screenshots/screenshot.png)
 
 ### Credit : Ahum (Me)
 
